@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<center>
+<body style='background-color:#b3c6ff;border:5px solid white; padding:5px; margin:35px;'>
+<form action='regsuccess.html' >
+<h1 style='font-family:Serif;'><b><center>Registration Form</center></b></h1>
+<br>
+<label style='font-family:Serif;'>First name:</label>
+<input type="textbox" id="name1" placeholder="enter first name"><br>
+<br>
+<label  style='font-family:Serif;'>Last name:</label>
+<input type="textbox" id="name2" placeholder="enter last name"><br>
+<br>
+<label  style='font-family:Serif;'>Gender:</label>
+<label><input type="radio" name="gender" id="male">Male</label>
+<label><input type="radio" name="gender" id="female">Female</label><br>
+<br>
+<label style='font-family:Serif;'>Address:</label>
+<textarea rows='7' cols='5' placeholder="enter address"></textarea><br>
+<br>
+
+<label style='font-family:Serif;'>DOB:</label> 
+<input type="date" id="date"><br>
+<br>
+<label style='font-family:Serif;'>Email:</label>
+<input type="Email" id="mail"><br>
+<br>
+<label>Course :</label>  
+<select>
+<option value="sel">------------Select course------------</option> 
+<option value="CS">Cyber Security</option>  
+<option value="AI">Artificial Intelligence</option>  
+<option value="ML">Machine Learning</option>  
+<option value="cc">Cloud Computing</option>  
+<option value="DBMS">Database Management System</option>   
+ </select><br>
+<br>
+<label style='font-family:Serif;'>Phone no.:</label>
+<input type="tel" id="number"><br>
+<br>
+<label style='font-family:Serif;'>Nationality:</label>
+<select>  
+<option value="ind">Indian</option>  
+<option value="other">Other</option>   
+</select>  <br>
+<br>
+<label style='font-family:Serif;'>District:</label>
+<select>  
+<option value="selectother">--------Select--------</option>  
+<option value="a">Alappuzha</option>  
+<option value="b">Kollam</option> 
+<option value="c">Kottayam</option>  
+<option value="d">Palakkad</option>   
+<option value="e">Thrissur</option>  
+<option value="f">Kannur</option>  
+<option value="g">Wayanad</option>  
+<option value="h">Malappuram</option>  
+<option value="i">Kasargod</option>    
+<option value="j">Idukki</option>  
+<option value="k">Pathanamthitta</option>  
+<option value="l">Ernakulam</option>  
+<option value="m">Kottayam</option>    
+<option value="n">Thiruvanathapuram</option>     
+</select>  <br>
+<br>
+<label style='font-family:Serif;'>Interested in:</label>
+<label><input type="checkbox" name="value" id="reading">Reading</label>
+<label><input type="checkbox" name="value" id="coding">Coding</label>
+<label><input type="checkbox" name="value" id="Writing">Writing</label>
+<label><input type="checkbox" name="value" id="swimming">Swimming</label><br>
+<br>
+<label style='font-family:Serif;'>Upload your photo:</label>
+<input type="file" name="resume" accept=".pdf,.doc" ><br>
+<br>
+<label  style='font-family:Serif;'>Advance payment method:</label>
+<label><input type="radio" name="pay" id="cash">Cash</label>
+<label><input type="radio" name="pay" id="card">Card</label>
+<label><input type="radio" name="pay" id="gpay">Gpay</label><br>
+<br>
+<label style='font-family:Serif;'> Set Username </label>
+<input type="text" placeholder="Set Username" name="username" required><br>
+<br>
+<label style='font-family:Serif;'> Set Password </label>
+<input type="password" placeholder="Set password" name="password" required>
+<br>
+<br>
+<input type="button" value="Register">
+</center>
+</form>
+</body>
+</html>
